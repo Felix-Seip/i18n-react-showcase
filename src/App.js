@@ -36,13 +36,14 @@ function App() {
           </Route>
         </Switch>
       </Row>
-      <Row className="justify-content-center py-2">
+      <Row className="justify-content-center py-3">
+        Current Language: {i18n.language}
+      </Row>
+      <Row className="justify-content-center">
         <Button id="en" onClick={changeLanguage}>
           Translate to English
         </Button>
-      </Row>
-      <Row className="justify-content-center">
-        <Button id="de" onClick={changeLanguage}>
+        <Button id="de" onClick={changeLanguage} className="mx-3">
           Translate to German
         </Button>
       </Row>
