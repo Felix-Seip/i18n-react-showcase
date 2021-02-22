@@ -2,6 +2,7 @@ import React from "react";
 
 import { Translation } from "react-i18next";
 
+// any component
 export default function RenderProp() {
   return (
     <Translation>
